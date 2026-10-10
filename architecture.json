@@ -1,0 +1,10 @@
+{
+  "summary": "Standalone browser-local illustration depth and relighting editor; separate userscript preserved.",
+  "areas": [
+    {"path":"index.html","purpose":"Editor DOM and accessible controls","dependencies":["assets/studio.css","js/engine.js"],"tests":["real browser workflow"],"coverage":"Original control IDs, layouts and events inspected"},
+    {"path":"mokey","purpose":"Independent React userscript, outside this redesign","coverage":"Manifest only; no changes"},
+    {"path":"docs","purpose":"Design, source provenance and browser verification evidence"}
+  ],
+  "facts":[{"claim":"Original standalone renderer uses direct WebGL","evidence":"docs/REVERSE.md"}],
+  "unknowns":["AI inference acceptance on this device","Human preference for selected UI"]
+}
